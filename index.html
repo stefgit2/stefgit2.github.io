@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Dynamic Content</title>
+    <title>Choose Your Link</title>
 </head>
 <body>
-    <h1>Dynamic Content Example</h1>
-    <div id="content"></div>
-    <script>
-        const params = new URLSearchParams(window.location.search);
-        const version = params.get('version');
-
-        if (version === '1') {
-            document.getElementById('content').innerHTML = '<p>Version 1 content here.</p>';
-        } else if (version === '2') {
-            document.getElementById('content').innerHTML = '<p>Version 2 content here.</p>';
-        } else {
-            document.getElementById('content').innerHTML = '<p>Invalid version.</p>';
-        }
-    </script>
+    <h1>Choose one of the following links:</h1>
+    <ul>
+        <li><a href="https://www.example.com/link1">Link 1</a></li>
+        <li><a href="https://www.example.com/link2">Link 2</a></li>
+    </ul>
 </body>
 </html>
