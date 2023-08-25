@@ -5,7 +5,7 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f5f5f5;
+      background-color: #AFE1AF;
       margin: 0;
       padding: 0;
       display: flex;
@@ -15,28 +15,45 @@
     }
     .container {
       text-align: center;
-      padding: 20px;
+      padding: 40px;
       border-radius: 10px;
+      background-image: url('crocodile-icon.png');
+      background-repeat: no-repeat;
+      background-position: center;
       background-color: #ffffff;
       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .header h1 {
+      font-size: 24px;
+      color: #40826D;
     }
     .link {
       display: block;
       margin: 10px 0;
       font-size: 18px;
-      color: #007bff;
+      color: #228B22;
       text-decoration: none;
       transition: color 0.3s ease;
     }
     .link:hover {
-      color: #0056b3;
+      color: #AFE1AF;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <a class="link" href="https://www.example.com">Visit Example.com</a>
-    <a class="link" href="https://www.anotherexample.com">Visit AnotherExample.com</a>
+    <div class="header">
+      <h1>Βάπτιση Κωνσταντίνου</h1>
+    </div>
+    <p align="justify"> <u> Google Map Links: </u> </p>
+    <a class="link" href="https://goo.gl/maps/mZGvohGJtbTrax6X8"><span class="icon">📍</span> Εκκλησία: Αγίου Ανδρονίκου και Αγίας Αθανασίας, Μένοικο</a>
+    <br>
+    <a class="link" href="https://goo.gl/maps/aVDZAgysSEVdkEQW7"><span class="icon">📍</span> Γεύμα: Εστιατόριο Όχτος, Αγία Μαρίνα Σκυλλούρας</a>
   </div>
 </body>
 </html>
